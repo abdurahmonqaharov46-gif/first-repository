@@ -1,0 +1,400 @@
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+ 
+    /* NAVBAR TEPA QISMI */
+
+    .navbar{
+        width: 100%;
+        height: 90px;
+        background-color: #ddd;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        box-shadow: 5px 2px 20px black;
+    }
+
+    .navbar h1{
+        color: red;
+        font-size: 45px;
+        margin: 10px 30px;
+        font-family: 'Times New Roman', Times, serif;
+        flex: 1;
+    }
+    ul{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        gap: 80px;
+        transform: translateX(-100px);
+    }
+    ul li{
+        list-style: none;
+    }
+    li a{
+        text-decoration: none;
+        color: #000;
+        transition: .3s;
+    }
+    a:hover{
+        text-decoration: none;
+        color: rgb(192, 37, 37);
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    /* CONTAINER 1- QATOR */
+
+    .container,
+    .ota,
+    .father,
+    .qirol,
+    .qirol1,
+    .qirol2{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }  
+
+    .container .box, .boks,.box2,.box3,.box1{
+        width: 280px;
+        height: 310px;
+        border: 2px solid #000;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+    }
+    
+    .container .box .img,.boks .image,.box2 .rasm,.box3 .foto,.box1 .surat{
+        width: 279px;
+        height: 180px;
+    }
+
+    .container .box .img img,.boks .image img,.box2 .rasm img,.box3 .foto img,
+    .box1 .surat img{
+        width: 277px;
+        height: 185px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container .box .child,.boks .boy,.box2 .child2,.box3 .child3,.box1 .child1{
+        width: 277px;
+        height: 121px;
+        background-color: #f3f2f2;
+    }
+
+    .container .box .child h2,.boks .boy h2,.box2 .child2 h2,.box3 .child3 h2,.box1 .child1 h2{
+        margin: 5px 10px;
+    }
+
+    .container .child del span,.boks .boy del span,.box2 .child2 del span,.box3 .child3 del span,
+    .box1 .child1 del span{
+        margin: 5px 10px;
+        color: #534e4e;
+        font-weight: 600;
+    }
+
+    .container .box .child p,.boks .boy p,.box2 .child2 p,.box3 .child3 p,.box1 .child1 p{
+        margin: 5px 10px;
+        color: #2d2c2c;
+        font-weight: 600;
+        background-color: yellow;
+        font-size: 15px;
+    }
+
+    /* OTA QISM 2-QATOR */
+  
+    .ota .box, .boks,.box2,.box3,.box1{
+        width: 280px;
+        height: 310px;
+        border: 2px solid #000;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+    }
+
+    .ota .box .img,.boks .image,.box2 .rasm,.box3 .foto,.box1 .surat{
+        width: 279px;
+        height: 180px;
+    }
+
+    .ota .box .img img,.boks .image img,.box2 .rasm img,.box3 .foto img,
+    .box1 .surat img{
+        width: 277px;
+        height: 185px;
+        border-radius: 5px 5px 0 0;
+    }
+
+     .ota .box .child,.boks .boy,.box2 .child2,.box3 .child3,.box1 .child1{
+        width: 277px;
+        height: 121px;
+        background-color: #f3f2f2;
+    }
+
+     .ota .box .child h2,.boks .boy h2,.box2 .child2 h2,.box3 .child3 h2,.box1 .child1 h2{
+        margin: 5px 10px;
+    }
+
+    .ota .child del span,.boks .boy del span,.box2 .child2 del span,.box3 .child3 del span,
+    .box1 .child1 del span{
+        margin: 5px 10px;
+        color: #534e4e;
+        font-weight: 600;
+    }
+
+    .ota .box .child p,.boks .boy p,.box2 .child2 p,.box3 .child3 p,.box1 .child1 p{
+        margin: 5px 10px;
+        color: #2d2c2c;
+        font-weight: 600;
+        background-color: yellow;
+        font-size: 15px;
+    }
+
+    /* FATHER 3-QATOR */
+
+     .father .box, .boks,.box2,.box3,.box1{
+        width: 280px;
+        height: 310px;
+        border: 2px solid #000;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+    }
+    
+    .father .box .img,.boks .image,.box2 .rasm,.box3 .foto,.box1 .surat{
+        width: 279px;
+        height: 180px;
+    }
+
+    .father .box .img img,.boks .image img,.box2 .rasm img,.box3 .foto img,
+    .box1 .surat img{
+        width: 277px;
+        height: 186px;
+        border-radius: 5px 5px 0 0;
+    }
+
+     .father .box .child,.boks .boy,.box2 .child2,.box3 .child3,.box1 .child1{
+        width: 277px;
+        height: 121px;
+        background-color: #f3f2f2;
+    }
+
+     .father .box .child h2,.boks .boy h2,.box2 .child2 h2,.box3 .child3 h2,.box1 .child1 h2{
+        margin: 5px 10px;
+    }
+
+    .father .child del span,.boks .boy del span,.box2 .child2 del span,.box3 .child3 del span,
+    .box1 .child1 del span{
+        margin: 5px 10px;
+        color: #534e4e;
+        font-weight: 600;
+    }
+
+    .father .box .child p,.boks .boy p,.box2 .child2 p,.box3 .child3 p,.box1 .child1 p{
+        margin: 5px 10px;
+        color: #2d2c2c;
+        font-weight: 600;
+        background-color: yellow;
+        font-size: 15px;
+    }
+
+    /* QIROL 4-QATOR */
+
+    .qirol .box, .boks,.box2,.box3,.box1{
+        width: 280px;
+        height: 310px;
+        border: 2px solid #000;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+    }
+    
+    .qirol .box .img,.boks .image,.box2 .rasm,.box3 .foto,.box1 .surat{
+        width: 279px;
+        height: 180px;
+    }
+
+    .qirol .box .img img,.boks .image img,.box2 .rasm img,.box3 .foto img,
+    .box1 .surat img{
+        width: 277px;
+        height: 185px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .qirol .box .child,.boks .boy,.box2 .child2,.box3 .child3,.box1 .child1{
+        width: 277px;
+        height: 121px;
+        background-color: #f3f2f2;
+    }
+
+    .qirol .box .child h2,.boks .boy h2,.box2 .child2 h2,.box3 .child3 h2,.box1 .child1 h2{
+        margin: 5px 10px;
+    }
+
+    .qirol .child del span,.boks .boy del span,.box2 .child2 del span,.box3 .child3 del span,
+    .box1 .child1 del span{
+        margin: 5px 10px;
+        color: #534e4e;
+        font-weight: 600;
+    }
+
+    .qirol .box .child p,.boks .boy p,.box2 .child2 p,.box3 .child3 p,.box1 .child1 p{
+        margin: 5px 10px;
+        color: #2d2c2c;
+        font-weight: 600;
+        background-color: yellow;
+        font-size: 15px;
+    }
+
+    /* QIROL1 5-QATOR */
+
+    .qirol1 .box, .boks,.box2,.box3,.box1{
+        width: 280px;
+        height: 310px;
+        border: 2px solid #000;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+    }
+    
+    .qirol1 .box .img,.boks .image,.box2 .rasm,.box3 .foto,.box1 .surat{
+        width: 279px;
+        height: 180px;
+    }
+
+    .qirol1 .box .img img,.boks .image img,.box2 .rasm img,.box3 .foto img,
+    .box1 .surat img{
+        width: 277px;
+        height: 185px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .qirol1 .box .child,.boks .boy,.box2 .child2,.box3 .child3,.box1 .child1{
+        width: 277px;
+        height: 121px;
+        background-color: #f3f2f2;
+    }
+
+    .qirol1 .box .child h2,.boks .boy h2,.box2 .child2 h2,.box3 .child3 h2,.box1 .child1 h2{
+        margin: 5px 10px;
+    }
+
+    .qirol1 .child del span,.boks .boy del span,.box2 .child2 del span,.box3 .child3 del span,
+    .box1 .child1 del span{
+        margin: 5px 10px;
+        color: #534e4e;
+        font-weight: 600;
+    }
+
+    .qirol1 .box .child p,.boks .boy p,.box2 .child2 p,.box3 .child3 p,.box1 .child1 p{
+        margin: 5px 10px;
+        color: #2d2c2c;
+        font-weight: 600;
+        background-color: yellow;
+        font-size: 15px;
+    }
+
+    /* QIROL2 OXIRGI 6- QATOR */
+
+    .qirol2 .box, .boks,.box2,.box3,.box1{
+        width: 280px;
+        height: 310px;
+        border: 2px solid #000;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+    }
+    
+    .qirol2 .box .img,.boks .image,.box2 .rasm,.box3 .foto,.box1 .surat{
+        width: 279px;
+        height: 180px;
+    }
+
+    .qirol2 .box .img img,.boks .image img,.box2 .rasm img,.box3 .foto img,
+    .box1 .surat img{
+        width: 277px;
+        height: 185px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .qirol2 .box .child,.boks .boy,.box2 .child2,.box3 .child3,.box1 .child1{
+        width: 277px;
+        height: 121px;
+        background-color: #f3f2f2;
+    }
+
+    .qirol2 .box .child h2,.boks .boy h2,.box2 .child2 h2,.box3 .child3 h2,.box1 .child1 h2{
+        margin: 5px 10px;
+    }
+
+    .qirol2 .child del span,.boks .boy del span,.box2 .child2 del span,.box3 .child3 del span,
+    .box1 .child1 del span{
+        margin: 5px 10px;
+        color: #534e4e;
+        font-weight: 600;
+    }
+
+    .qirol2 .box .child p,.boks .boy p,.box2 .child2 p,.box3 .child3 p,.box1 .child1 p{
+        margin: 5px 10px;
+        color: #2d2c2c;
+        font-weight: 600;
+        background-color: yellow;
+        font-size: 15px;
+    }
+
+    .box .child button,.boks .boy button,.box2 .child2 button,.box3 .child3 button,.box1 .child1 button{
+        margin: auto;
+        display: block;
+        margin-top: 12px;
+        width: 255px;
+        height: 25px;
+        text-align: center;
+        border: none;
+        outline: none;
+        background-color: green;
+        color: #fff;
+        border-radius: 2px;
+        transition-duration: .05s;
+    }
+
+    .box .child button:hover,.boks .boy button:hover,.box2 .child2 button:hover,.box3 .child3 button:hover,.box1 .child1 button:hover{
+        margin: auto;
+        display: block;
+        margin-top: 12px;
+        width: 255px;
+        height: 25px;
+        text-align: center;
+        border: 2px solid green;
+        outline: none;
+        background-color: #fff;
+        color: green;
+        border-radius: 2px;
+    }
+
+    .h1{
+        text-align: center;
+        color: red;
+        font-size: 50px;
+        transform: translateY(100px);
+    }
+
+    .h3{
+        text-align: center;
+        color: red;
+        transform: translateY(130px);
+        
+    }
+
+    h3{
+        text-align: center;
+        color: #000;
+        transform: translateY(150px);
+        margin-bottom: 10px;
+    }
+
+    .h33{
+        text-align: center;
+        color: red;
+        transform: translateY(170px);
+        font-size: 30px;
+    }
+
