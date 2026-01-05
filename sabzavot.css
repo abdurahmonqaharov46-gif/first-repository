@@ -33,11 +33,12 @@
     }
     ul li{
         list-style: none;
+
     }
     li a{
         text-decoration: none;
         color: #000;
-        transition: .3s;
+        transition: all .3s;
     }
     a:hover{
         text-decoration: none;
