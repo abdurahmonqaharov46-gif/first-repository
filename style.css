@@ -15,6 +15,9 @@
         align-items: center;
         gap: 50px;
         box-shadow: 5px 2px 20px black;
+        position: fixed;
+        top: 0;
+        margin-bottom: 50px;
     }
 
     .navbar h1{
@@ -48,6 +51,9 @@
 
     /* CONTAINER 1- QATOR */
 
+    .container{
+        margin-top: 100px;
+    }
     .container,
     .ota,
     .father,
@@ -354,6 +360,7 @@
         color: #fff;
         border-radius: 2px;
         transition-duration: .05s;
+        cursor: pointer;
     }
 
     .box .child button:hover,.boks .boy button:hover,.box2 .child2 button:hover,.box3 .child3 button:hover,.box1 .child1 button:hover{
@@ -368,6 +375,7 @@
         background-color: #fff;
         color: green;
         border-radius: 2px;
+        cursor: pointer;
     }
 
     .h1{
@@ -389,7 +397,9 @@
         color: #000;
         transform: translateY(150px);
         margin-bottom: 10px;
+        cursor: pointer;
     }
+
 
     .h33{
         text-align: center;
@@ -397,6 +407,3 @@
         transform: translateY(170px);
         font-size: 30px;
     }
-
-    /* VANIHOYAT 400 TA CODE BILAN TUGADI */
-
